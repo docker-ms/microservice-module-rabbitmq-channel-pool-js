@@ -1,0 +1,17 @@
+{
+  "name": "microservice-rabbitmq-channels-pool",
+  "version": "0.0.1",
+  "description": "This module is in charge of building 'RabbitMQ' channel pools.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/v-cube/microservice-module-rabbitmq-channel-pool-js.git"
+  },
+  "dependencies": {
+    "amqplib": "~0.4.2",
+    "bluebird": "~3.4.6",
+    "microservice-consul-agents": "git+ssh://git@bitbucket.org/v-cube/microservice-module-consul.git",
+    "microservice-utils": "git+ssh://git@bitbucket.org/v-cube/microservice-module-util-js.git"
+  }
+}
